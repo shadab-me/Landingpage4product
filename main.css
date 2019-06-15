@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-size: 18px;
+}
+.main{
+  background-image: url(./image/bg-hero-mobiles.svg);
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.logo img{
+
+  width: 120px;
+}
+#btn{
+  text-decoration: none;
+  border-radius:40px;
+  width: 180px;
+  height: 50px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: all;
+  
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+ padding: 20px;
+}
+.hero h1{
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.hero p{
+  line-height: 2.5rem;
+}
+.hero-image{
+  width: 100%;
+  margin-top: 50px;
+}
+.hero-image img{
+  width: 80%;
+}
+
+.btn-free{
+  background-color:hsl(322, 100%, 66%);
+  color: white;
+  font-weight: bold;
+  height: 60px;
+  }
+  
+  .flowing img{
+    width: 80%;
+    max-width: 325px;
+  
+  }
+   
+  
+  .box1{
+    text-align: center;
+    margin: 0 auto ;
+    width: 80%;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+  }
+  .box2{
+    text-align: center;
+    margin: 20px auto ;
+    width: 80%;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  .grow img {
+    width: 80%;
+    max-width: 325px;
+  }
+
+  .ready{
+    text-align: center;
+    margin: 20px auto ;
+    max-width: 220px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+
+  
+   }
+   .container{
+    
+     background-color: hsl(192, 100%, 9%);
+     display: flex;
+     color: white;
+     flex-direction: column;
+   }
+   .container li{
+     list-style: none;
+     padding: 10px;
+   }
+   .container img{
+    width: 180px;
+    margin: 20px;
+
+   }
+.nav ul li a{
+text-decoration: none;
+color: white;
+}
+
+@media (min-width: 786px){
+  .hero{
+    flex-direction: row;
+  }
+  .hero-text{
+  text-align: justify;
+  margin: 20px;
+  }
+  .box1{
+    flex-direction: row;
+  }
+  .box1 img{
+max-width: 320px;
+  }
+}
